@@ -1,5 +1,5 @@
 window.addEventListener("load", function () {
-        var theRealease = new Date("December 5, 2020 22:15:00").getTime();
+        var theRealease = new Date("December 10, 2020 18:00:00").getTime();
 
         var interval = setInterval(function () {
                 var d = theRealease - new Date().getTime();
@@ -15,8 +15,8 @@ window.addEventListener("load", function () {
                 if (d < 0) {
                         clearInterval(interval);
                         document.querySelector(".countdown").innerHTML = "";
-                        document.getElementById("title").innerHTML = 'Vanilla Craft 1 läuft bereits!';
-                        document.querySelector(".finished").innerHTML = '<span id="ip">Komme jetzt auf den Minecraft Server IP: VANILLACRAFT.INSTANT-MC.DE</span>';
+                        document.getElementById("title").innerHTML = 'Unsere Website ist jetzt online!';
+                        document.querySelector(".finished").innerHTML = '<span id="ip">Aktuallisiere diese Website!</span>';
                 }
         }, 1000);
 });

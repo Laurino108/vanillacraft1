@@ -1,5 +1,5 @@
 window.addEventListener("load", function () {
-        var theRealease = new Date("December 10, 2020 18:00:00").getTime();
+        var theRealease = new Date("December 7, 2020 18:00:00").getTime();
 
         var interval = setInterval(function () {
                 var d = theRealease - new Date().getTime();
@@ -16,7 +16,7 @@ window.addEventListener("load", function () {
                         clearInterval(interval);
                         document.querySelector(".countdown").innerHTML = "";
                         document.getElementById("title").innerHTML = 'Unsere Website ist jetzt online!';
-                        document.querySelector(".finished").innerHTML = '<span id="ip">Aktuallisiere diese Website!</span>';
+                        document.querySelector(".finished").innerHTML = '<span id="ip">vanillacraftde.github.io/vanillacraftde/</span>';
                 }
         }, 1000);
 });

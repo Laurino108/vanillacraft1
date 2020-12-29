@@ -15,8 +15,7 @@ window.addEventListener("load", function () {
                 if (d < 0) {
                         clearInterval(interval);
                         document.querySelector(".countdown").innerHTML = "";
-                        document.getElementById("title").innerHTML = 'Unsere Website ist jetzt online!';
-                        document.querySelector(".finished").innerHTML = '<span id="ip">vanillacraftde.github.io/vanillacraftde/</span>';
+                        document.getElementById("title").innerHTML = 'Die Map gibt es am Ende der Staffel zum Download!';
                 }
         }, 1000);
 });
